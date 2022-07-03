@@ -1,0 +1,14 @@
+:root {
+    --primary: #6e44ff;
+    --secondary: #b892ff;
+    --light-grey: #f8f9fa;
+    --mid-grey: #e9ecef;
+}
+
+* {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
