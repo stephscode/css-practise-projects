@@ -165,7 +165,7 @@ i {
 .avatar {
     width: 70px;
     height: 70px;
-    background-image: url(/images/user-avatar.jpg);
+    background-image: url(./images/user-avatar.jpg);
     background-position: center center;
     background-size: cover;
     border-radius: 5px;
