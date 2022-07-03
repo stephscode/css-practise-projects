@@ -211,7 +211,7 @@ h1 {
 /* INFO SNIPPETS SECTION */
 .info-snippets {
     display: flex;
-    padding: 4rem 0;
+    padding: 8rem 0;
 
 }
 
@@ -265,8 +265,53 @@ h1 {
     background-color: var(--medium);
 }
 
-
 /* FEATURES SECTION */
+.features {
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 0;
+    background-color: var(--lightest);
+}
+
+.features h2 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.features p {
+    font-weight: 300;
+    font-size: 22px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.features-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.features-list li {
+    list-style: none;
+    font-size: 22px;
+
+    display: flex;
+    gap: 1rem;
+
+
+}
+
+.features-list i {
+    color: var(--primary);
+}
 
 /* GALLERY SECTION */
 
