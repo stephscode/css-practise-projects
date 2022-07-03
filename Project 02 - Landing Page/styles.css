@@ -26,6 +26,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    background-color: var(--lightest);
 }
 
 .header-left {
@@ -96,6 +97,7 @@ body {
 
 
 /* HERO STYLES */
+
 
 /* INFO SECTION */
 
