@@ -118,21 +118,26 @@ body {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 70px;
     line-height: 1em;
     margin-bottom: 1rem;
 }
 
 .hero p {
     font-weight: 300;
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 2rem;
+}
+
+.cta-container {
+    display: flex;
+    gap: 1rem;
 }
 
 .primary-cta,
 .secondary-cta {
-    padding: 0.5rem 2rem;
-    font-size: 18px;
+    padding: 1rem 4rem;
+    font-size: 24px;
     border-radius: 5px;
 }
 
@@ -165,6 +170,43 @@ h1 {
 
 
 /* INFO SECTION */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 4rem;
+}
+
+.sub-heading {
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.info-img {
+    width: 750px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: var(--medium);
+
+}
+
+.info-text {
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    max-width: 750px;
+}
+
 
 /* INFO SNIPPETS SECTION */
 
