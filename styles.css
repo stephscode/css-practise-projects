@@ -83,5 +83,65 @@ i {
     background-color: var(--light-grey);
     height: auto;
     width: 100%;
+    padding: 2rem;
 
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting {
+    font-size: 24px;
+}
+
+.date {
+    font-size: 18px;
+    color: lightgrey;
+}
+
+.header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-bar {
+    background-color: white;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    width: 300px;
+    height: 70px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.search-bar i {
+    color: lightgrey;
+}
+
+.search-bar span {
+    color: lightgrey;
+
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    background-image: url(/images/user-avatar.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 5px;
 }
