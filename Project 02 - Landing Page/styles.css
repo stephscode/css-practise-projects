@@ -503,12 +503,15 @@ h1 {
     color: white;
 }
 
+
+
 .cta .primary {
     color: var(--primary);
-    border: none;
+    border: 1px solid white;
     background-color: white;
     padding: 1rem 4rem;
     font-size: 18px;
+    margin-right: 1rem;
 }
 
 .cta .secondary {
