@@ -562,3 +562,54 @@ h4.question {
 }
 
 /* FOOTER SECTION */
+
+.footer {
+    background-color: var(--dark);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer .logo-type {
+    color: white;
+}
+
+.footer ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer li {
+    color: white;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.footer li:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.social-icons-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons-container i {
+    color: white;
+    font-size: 20px;
+
+}
+
+.social-icons-container i:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
