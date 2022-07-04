@@ -415,6 +415,76 @@ h1 {
 
 /* ARTICLES SECTION */
 
+.articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem 0;
+    ;
+}
+
+.articles h2 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.card {
+    border: 1px solid var(--medium);
+    max-width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-thumb {
+    height: 200px;
+    width: 350px;
+    background-color: var(--medium);
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+
+.category {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.blog-title {
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.blog-snippet {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.read-more {
+    color: var(--primary);
+    background: none;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+
+
+}
+
 /* CTA SECTION */
 
 /* FAQ SECTION */
