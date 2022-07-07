@@ -74,3 +74,40 @@ i {
 }
 
 /* || MAIN CONTAINER */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* || HEADER BAR */
+.header-bar {
+    height: 70px;
+    background-color: var(--charcoal);
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+
+
+}
+
+.current-user-avatar {
+    background-color: var(--yellow);
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-user-avatar,
+.current-user-name {
+    color: white;
+    font-weight: 600;
+}
