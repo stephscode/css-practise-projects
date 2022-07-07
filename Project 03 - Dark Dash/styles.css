@@ -1,0 +1,22 @@
+:root {
+    --black: #13131Bff;
+    --charcoal: #1C1C25ff;
+    --gray: #444450ff;
+    --yellow: #FFC200ff;
+    --blue: #0077FFff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--black);
+}
+
+i {
+    color: white;
+}
