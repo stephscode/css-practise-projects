@@ -13,7 +13,6 @@
     font-family: Helvetica, sans-serif;
     color: white;
 
-    /* border: 1px solid red; */
 }
 
 a {
@@ -86,6 +85,7 @@ i {
     display: flex;
     flex-direction: column;
     width: 100%;
+
 }
 
 /* || HEADER BAR */
@@ -98,6 +98,8 @@ i {
     align-items: center;
     gap: 1rem;
     padding: 1rem 2rem;
+
+
 
 
 }
@@ -215,6 +217,10 @@ i {
 .cards-section {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
+
+    padding: 2rem;
+    4rem;
 }
 
 .cards-row {
@@ -256,8 +262,8 @@ i {
 
 .project-stats {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    gap: 1rem;
+
 }
 
 .joined,
@@ -281,10 +287,7 @@ i {
 
 .badge-container {
     display: flex;
-    justify-content: space-between;
-    width: 90%;
-
-
+    gap: 1rem;
 }
 
 
